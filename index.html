@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Responsive Project</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <!-- 3. Alert / Notification -->
+    <div class="alert" role="alert">
+        <strong>Success!</strong> Your changes have been saved successfully.
+    </div>
+
+    <!-- 1. Responsive Layout (Grid) -->
+    <main class="grid-container">
+        <section class="card">Item 1</section>
+        <section class="card">Item 2</section>
+        <section class="card">Item 3</section>
+        <section class="card">Item 4</section>
+    </main>
+
+    <!-- 2. Form Elements -->
+    <form class="custom-form">
+        <h2>Contact Us</h2>
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="options">Choose an option:</label>
+        <select id="options">
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+        </select>
+
+        <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <!-- 2. Modal Window (CSS Only) -->
+    <a href="#myModal" class="btn open-modal-btn">Open Modal</a>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h2>Welcome!</h2>
+            <p>This is a CSS-only modal window.</p>
+            <a href="#" class="close-btn">Close (X)</a>
+        </div>
+    </div>
+
+</body>
+</html>
